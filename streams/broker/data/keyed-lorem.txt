@@ -1,0 +1,100 @@
+bad:{"line":"Duis viverra felis dapibus lorem dignissim ultrices."}
+bad:{"line":"Nullam in felis a justo lacinia luctus."}
+bad:{"line":"Ut vitae dui et tellus fringilla aliquam."}
+good:{"line":"Sed in metus tincidunt, auctor lorem ac, pharetra nulla."}
+good:{"line":"Proin volutpat purus tincidunt risus vestibulum efficitur."}
+good:{"line":"Sed gravida magna ac nulla dapibus efficitur."}
+good:{"line":"Mauris vestibulum diam nec tristique fringilla."}
+good:{"line":"Vivamus suscipit libero quis pharetra condimentum."}
+bad:{"line":"Suspendisse vel ligula ac magna ultrices accumsan id id mauris."}
+bad:{"line":"Ut vitae enim id est suscipit viverra a et lectus."}
+bad:{"line":"Nulla cursus eros nec facilisis auctor."}
+good:{"line":"Praesent non urna rhoncus, dignissim eros ut, pharetra erat."}
+bad:{"line":"Duis vitae odio vestibulum, dictum arcu at, molestie erat."}
+good:{"line":"Proin ornare ligula sit amet tellus blandit, id interdum libero imperdiet."}
+bad:{"line":"Aenean consequat ante nec arcu tristique, eget molestie sapien semper."}
+bad:{"line":"Proin molestie odio et bibendum malesuada."}
+good:{"line":"Donec consectetur mauris ac fringilla maximus."}
+bad:{"line":"Aliquam iaculis ante vel tincidunt tristique."}
+bad:{"line":"In pretium quam faucibus fringilla ultricies."}
+good:{"line":"Proin porta ante eu dignissim laoreet."}
+good:{"line":"Morbi vitae quam eget sem sollicitudin pharetra."}
+good:{"line":"Nullam eget sapien dictum, dictum nunc scelerisque, facilisis tortor."}
+bad:{"line":"Phasellus eu massa ut quam tincidunt tristique."}
+bad:{"line":"Morbi consequat purus non velit varius, eu efficitur augue pharetra."}
+bad:{"line":"Vestibulum semper nunc eu tincidunt tincidunt."}
+bad:{"line":"Pellentesque sit amet magna eget erat maximus tincidunt quis a felis."}
+bad:{"line":"Aliquam aliquet sem vel nisl volutpat, faucibus varius elit fringilla."}
+bad:{"line":"Quisque mollis dui ac elit auctor, eu porta nunc egestas."}
+good:{"line":"Vestibulum volutpat tortor vitae tellus sollicitudin tincidunt."}
+bad:{"line":"Ut id felis sed nibh mollis accumsan."}
+good:{"line":"Proin et odio quis nibh tempus sagittis."}
+bad:{"line":"Quisque fermentum sapien a orci convallis, in vulputate diam molestie."}
+good:{"line":"Cras porta ligula ac diam pretium, ut convallis leo sollicitudin."}
+good:{"line":"Duis vestibulum leo eu scelerisque mattis."}
+good:{"line":"Cras tempus libero non scelerisque tempor."}
+good:{"line":"Vestibulum lobortis nisl eget nibh bibendum vulputate."}
+bad:{"line":"Sed luctus mi vel dui aliquet, eget ornare mi vestibulum."}
+bad:{"line":"Sed vitae leo sed quam scelerisque congue."}
+good:{"line":"Ut at quam varius, aliquam diam at, pretium odio."}
+bad:{"line":"Maecenas id dolor eu libero lacinia aliquet."}
+bad:{"line":"Praesent tempor felis ut pulvinar rutrum."}
+bad:{"line":"Vestibulum vel dui vulputate, sagittis sem at, lobortis turpis."}
+bad:{"line":"Sed consequat arcu ac magna dictum aliquam."}
+bad:{"line":"Morbi ac augue nec elit condimentum convallis egestas vitae ante."}
+good:{"line":"Duis varius sapien id efficitur auctor."}
+bad:{"line":"Maecenas molestie felis et tellus malesuada pellentesque."}
+good:{"line":"Integer vitae purus facilisis, suscipit urna sit amet, placerat nunc."}
+good:{"line":"Nulla cursus velit vitae turpis feugiat, eu ullamcorper neque posuere."}
+bad:{"line":"Fusce vel nisi congue, vulputate arcu quis, tempor ex."}
+good:{"line":"Nunc fermentum ligula et finibus facilisis."}
+bad:{"line":"Suspendisse vitae justo ut magna vulputate pulvinar tempor quis ex."}
+bad:{"line":"Aenean eget diam ut dui rhoncus eleifend non sit amet orci."}
+bad:{"line":"Aenean euismod odio a ultrices consequat."}
+good:{"line":"Vivamus porta sem et elit sagittis sollicitudin."}
+good:{"line":"Etiam sagittis ligula ac ligula porttitor fermentum."}
+good:{"line":"Integer commodo sem sed dolor pulvinar faucibus."}
+good:{"line":"Donec eu ligula non nibh porttitor convallis."}
+bad:{"line":"Donec at felis id tortor ultricies vehicula eget vel turpis."}
+bad:{"line":"Vivamus pulvinar felis quis turpis condimentum imperdiet."}
+bad:{"line":"Etiam ornare leo et finibus accumsan."}
+good:{"line":"Maecenas in nisi blandit, tristique libero sed, interdum velit."}
+good:{"line":"Aenean id odio non nisl vestibulum auctor vel eget nisl."}
+bad:{"line":"Curabitur venenatis sem nec odio eleifend consectetur."}
+good:{"line":"Curabitur vitae nibh quis sem cursus varius at sed mi."}
+bad:{"line":"Vivamus laoreet sapien eget ante mattis semper."}
+bad:{"line":"Morbi sagittis leo ac magna gravida varius."}
+good:{"line":"Maecenas aliquet purus vel tristique tempus."}
+good:{"line":"Vivamus ut tortor sed elit rhoncus congue."}
+bad:{"line":"Praesent at nibh non sem ultrices interdum sit amet laoreet felis."}
+good:{"line":"Suspendisse semper quam in diam maximus, et facilisis nibh facilisis."}
+bad:{"line":"Donec ac mauris id neque lobortis commodo."}
+bad:{"line":"Donec rhoncus sem sed neque varius dictum."}
+bad:{"line":"Phasellus tincidunt nulla vel varius pulvinar."}
+good:{"line":"Aenean id libero ultrices, pretium velit tincidunt, rutrum mi."}
+good:{"line":"Nulla non nisl quis orci rutrum pellentesque quis vel dolor."}
+good:{"line":"Donec aliquet sapien at ante volutpat posuere."}
+good:{"line":"Etiam sed magna a erat sodales convallis rhoncus eget diam."}
+bad:{"line":"Maecenas sodales sapien imperdiet est hendrerit consequat."}
+bad:{"line":"Praesent a elit a purus mollis tempor."}
+bad:{"line":"Proin sagittis leo placerat mollis suscipit."}
+bad:{"line":"Ut commodo odio consequat, placerat dolor in, ullamcorper magna."}
+good:{"line":"In facilisis sapien eget justo vehicula, accumsan egestas diam facilisis."}
+good:{"line":"Aenean vitae justo consequat, mollis diam nec, tincidunt mauris."}
+bad:{"line":"Duis efficitur leo at mi hendrerit fringilla."}
+good:{"line":"In nec purus in justo tempus bibendum eu ac diam."}
+bad:{"line":"Morbi lobortis massa ac elementum suscipit."}
+bad:{"line":"Ut egestas sapien a eros feugiat aliquam."}
+good:{"line":"Praesent id odio luctus, molestie ex mollis, mattis velit."}
+bad:{"line":"Sed condimentum erat sit amet elementum ultricies."}
+good:{"line":"Mauris porta mauris quis est pharetra, eget ullamcorper elit lobortis."}
+good:{"line":"Aliquam id est interdum, eleifend lorem at, dignissim nunc."}
+bad:{"line":"Fusce eu felis sed enim tincidunt cursus non ac ex."}
+bad:{"line":"Sed non diam ac dolor molestie aliquam."}
+good:{"line":"Pellentesque eu nisl pharetra nulla blandit dignissim quis molestie ligula."}
+bad:{"line":"Integer aliquet eros quis faucibus elementum."}
+good:{"line":"Etiam bibendum enim vitae elit facilisis facilisis."}
+bad:{"line":"Proin sit amet nisl iaculis, semper ex vel, viverra enim."}
+good:{"line":"Fusce lobortis urna vel nisi pharetra, a euismod dui bibendum."}
+bad:{"line":"Sed tempor nibh in pharetra vestibulum."}
+good:{"line":"Etiam fringilla ipsum non ullamcorper ultricies."}

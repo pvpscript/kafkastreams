@@ -1,0 +1,3 @@
+LIST STREAMS;
+CREATE STREAM lorem_stream (line VARCHAR) WITH(KAFKA_TOPIC='lorem-ipsum',VALUE_FORMAT='json');
+CREATE STREAM lorem_cnt_stream AS SELECT LEN(line), line FROM lorem_stream;
