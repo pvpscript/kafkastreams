@@ -21,7 +21,7 @@ class TabledNumbers(
                     .withKeySerde(STRING_SERDE)
                     .withValueSerde(STRING_SERDE)
                     .withRetention(Duration.ofSeconds(30))
-            // O processamento para quando o tamanho do cache ou o tempo de reteção são excedidos
+            // Processing stops when the cache's size or retention time are exceeded
             )
 
             ktable.toStream()

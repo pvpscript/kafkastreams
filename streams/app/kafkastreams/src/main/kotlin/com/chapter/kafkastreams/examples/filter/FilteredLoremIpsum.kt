@@ -13,8 +13,8 @@ class FilteredLoremIpsum(
     private val kafkaStreamHandler: KafkaStreamHandler,
 ) {
     fun runStreamFilter() {
-        // Operação stateless -> Valores prévios não precisam ser lembrados ou armazenados
-        // Utiliza-se de um predicado booleano
+        // Stateless operation -> Previous values don't need to be remembered or stored
+        // Uses a boolean predicate
         kafkaStreamHandler.builtStream { builder ->
             val sizedLoremStream = builder
                 .stream(INPUT_TOPIC, Consumed.with(STRING_SERDE, BASIC_LOREN_SERDE))

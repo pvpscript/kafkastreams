@@ -13,11 +13,11 @@ class AggregatedLoremIpsum(
     private val kafkaStreamHandler: KafkaStreamHandler,
 ) {
     fun runStreamAggregation() {
-        // Operação stateful -> Valores prévios são lembrados
+        // Stateful operation -> Previous values are remembered
         kafkaStreamHandler.builtStream { builder ->
             builder.stream(INPUT_TOPIC, Consumed.with(STRING_SERDE, BASIC_LOREN_SERDE))
                 .peek { _, value -> println("Before transform: $value") }
-                .groupByKey() // Reparticionamento! -> dados c/ mesma chave vão p/ a mesma partição
+                .groupByKey() // Repartitioning! -> data with the same key go to the same partition
                 .aggregate(
                     { 0 },
                     { _, value, total -> total + value.line.length },
