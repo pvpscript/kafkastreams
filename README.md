@@ -1,5 +1,5 @@
-# Kafka Streams: Scratching The Surface
-A repository for my presentation about the basics of Kafka Streams
+# Kafka Streams: Scratching The Surface 
+A repository containing everything I used for my Kafka Streams presentation
 
 # 1. Setting up
 In order to set up the environment and run tests, just follow the steps below:
@@ -19,7 +19,7 @@ cd streams/broker
 docker-compose exec broker /bin/sh -c ". /home/appuser/_prepare.sh"
 ```
 
-### 1.3 Run the spring application
+# 2. Running the spring application
 Navigate to the application directory located at `./streams/app/kafkastreams` and run it with gradle via CLI, or import the project to your favorite IDE and run it via the `KafkastreamsApplication.kt` file.
 ```
 cd streams/app/kafkastreams
@@ -27,6 +27,29 @@ cd streams/app/kafkastreams
 ```
 
 After doing that, you are good to play around with the application endpoints and open an interactive shell inside the `broker` instance and use the helper scripts.
+
+# 3. ksqlDB
+The main objective of `ksqlDB` is to untie the Kafka Streams operations from a specific programming language. It creates an abstraction layer between the broker and the application by providing endpoints for the stream operations.
+
+### 3.1 Helper scripts
+In order to run tests on the `ksqlDB` you can use the following scripts:
+- `ksql.sh QUERY`: runs the given query on the local `/ksql` endpoint (with `auto-offset-reset` set to `earliest`);
+- `query.sh QUERY`: runs the given query on the local `/query` endpoint.
+
+For more information about the endpoints, refer to: https://docs.ksqldb.io/en/latest/developer-guide/api/
+
+### 3.2 Running an application example
+The `app.sh` script is an example of how to execute multiple statements that depends on the previous statement's result. It does that by using the `commandSequenceNumber` value, returned by the statement executed via ksqlDB rest API.
+Those are the operations that it will execute:
+1. Create a stream called `lorem_stream_script` from the `lorem-ipsum` topic, whose content of each row is a lorem ipsum sentence.;
+2. Create a stream called `lorem_cnt_stream`, with the sentence length and the sentence itself, pulled from the `lorem_stream_script` stream;
+3. Lastly, it will run a **SELECT** statement on the `lorem_cnt_stream` stream and show its results.
+
+### 3.3 Interactive shell
+For testing purposes, there's an easier way to run the SQL statements, which is by running an interactive shell.
+```
+docker exec -it ksqldb-cli ksql http://ksqldb-server:8088
+```
 
 # Appendix
 ### A. Endpoints
