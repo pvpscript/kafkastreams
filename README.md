@@ -31,10 +31,12 @@ After doing that, you are good to play around with the application endpoints and
 # 3. ksqlDB
 The main objective of `ksqlDB` is to untie the Kafka Streams operations from a specific programming language. It creates an abstraction layer between the broker and the application by providing endpoints for the stream operations.
 
+**The following scripts are located under the `./ksqldb/rest` directory.**
+
 ### 3.1 Helper scripts
 In order to run tests on the `ksqlDB` you can use the following scripts:
-- `ksql.sh QUERY`: runs the given query on the local `/ksql` endpoint (with `auto-offset-reset` set to `earliest`);
-- `query.sh QUERY`: runs the given query on the local `/query` endpoint.
+- `./ksql.sh QUERY`: runs the given query on the local `/ksql` endpoint (with `auto-offset-reset` set to `earliest`);
+- `./query.sh QUERY`: runs the given query on the local `/query` endpoint.
 
 For more information about the endpoints, refer to: https://docs.ksqldb.io/en/latest/developer-guide/api/
 
@@ -44,6 +46,9 @@ Those are the operations that it will execute:
 1. Create a stream called `lorem_stream_script` from the `lorem-ipsum` topic, whose content of each row is a lorem ipsum sentence.;
 2. Create a stream called `lorem_cnt_stream`, with the sentence length and the sentence itself, pulled from the `lorem_stream_script` stream;
 3. Lastly, it will run a **SELECT** statement on the `lorem_cnt_stream` stream and show its results.
+```
+./app.sh
+```
 
 ### 3.3 Interactive shell
 For testing purposes, there's an easier way to run the SQL statements, which is by running an interactive shell.
