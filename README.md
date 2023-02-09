@@ -43,7 +43,7 @@ For more information about the endpoints, refer to: https://docs.ksqldb.io/en/la
 ### 3.2 Running an application example
 The `app.sh` script is an example of how to execute multiple statements that depends on the previous statement's result. It does that by using the `commandSequenceNumber` value, returned by the statement executed via ksqlDB rest API.
 Those are the operations that it will execute:
-1. Create a stream called `lorem_stream_script` from the `lorem-ipsum` topic, whose content of each row is a lorem ipsum sentence.;
+1. Create a stream called `lorem_stream_script` from the `lorem-ipsum` topic, whose content of each row is a lorem ipsum sentence;
 2. Create a stream called `lorem_cnt_stream`, with the sentence length and the sentence itself, pulled from the `lorem_stream_script` stream;
 3. Lastly, it will run a **SELECT** statement on the `lorem_cnt_stream` stream and show its results.
 ```
