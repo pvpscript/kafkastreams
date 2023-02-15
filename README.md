@@ -1,5 +1,12 @@
 # Kafka Streams: Scratching The Surface 
-A repository containing everything I used for my Kafka Streams presentation
+A repository containing everything I used for my Kafka Streams presentation at Cora
+
+# What
+The following instructions are a guide of how to setup the `kafkastreams` application present in this very repository, in order to run some tests for yourself and see how a Kafka broker behave by manually running command line scripts to feed data to it or read data from it.
+
+At the end, there's a section for `ksqlDB` that uses the same broker as above, which can be used to test the basic concepts of `ksqlDB` and understand where and why it can be useful for your real world application.
+
+Mind you, this is a very basic introduction of **Kafka Streams** and **ksqlDB**. For a deeper understaing, check the [references](#references) section at the bottom of the page.
 
 # 1. Setting up
 In order to set up the environment and run tests, just follow the steps below:
@@ -72,3 +79,18 @@ Those are meant to be run inside the `broker` instance.
 5. Consume a topic with a **null** key: `./consume.sh TOPIC_NAME [OPTIONS]`;
 6. Produce in a topic with a **non-null** (formatted: `key:value`): `./keyed-produce.sh TOPIC_NAME`;
 7. Consume a topic with a **non-null** key: `./keyed-consume.sh TOPIC_NAME [OPTIONS]`.
+
+# References
+### Introduction to Kafka
+- [Apache Kafka](https://kafka.apache.org/intro)
+- [Kafka Brokers | Learn Apache Kafka with Conduktor](https://www.conduktor.io/kafka/kafka-brokers)
+- [Kafka in a Nutshell | Kevin Sookocheff](https://sookocheff.com/post/kafka/kafka-in-a-nutshell/)
+- [How persistence works in an Apache Kafka deployment - IBM Developer](https://developer.ibm.com/articles/how-persistence-works-in-apache-kafka/)
+- [Apache Kafka®: Basic Concepts, Architecture, and Examples](https://developer.confluent.io/learn-kafka/apache-kafka/events/)
+### Kafka streams
+- [Kafka Streams: Basic Concepts, Architecture, and Examples](https://developer.confluent.io/learn-kafka/kafka-streams/get-started/)
+- [Streams Concepts | Confluent Documentation](https://docs.confluent.io/platform/current/streams/concepts.html)
+### ksqlDB
+- [ksqlDB: Basic Concepts, Architecture, and Getting Started](https://developer.confluent.io/learn-kafka/ksqldb/intro/)
+- [ksqlDB: The database purpose-built for stream processing applications](https://ksqldb.io/quickstart.html)
+- [ksqlDB Overview - ksqlDB Documentation](https://docs.ksqldb.io/en/latest/)
